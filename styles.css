@@ -1,1 +1,27 @@
-/* your code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+table{
+   margin: 2rem auto;
+   border: 1px solid black;
+   border-radius:10px;
+   overflow: hidden;
+   width: 170vh;
+   border-collapse: collapse;
+   text-align: center;
+}
+
+th,td{
+    padding: 0.8rem;
+}
+tr:nth-child(odd){
+    background-color: grey;
+}
+
+.table_heading{
+    background-color:#215A8E;
+}
